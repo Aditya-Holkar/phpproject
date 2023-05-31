@@ -71,7 +71,7 @@ $(document).ready(function() {
 </head>
 <body onload="resetSelection()">
 <h1>Insert the Information</h1>
- <form action="rada.php" method="post">
+ <form action="index.php" method="post">
 <select id="countrySelect" size="1" onchange="makeSubmenu(this.value)" name="state">
 <option value="">Select State</option>
 <option value="Andhra_Pradesh">Andhra Pradesh</option>
